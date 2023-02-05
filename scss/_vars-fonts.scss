@@ -1,0 +1,22 @@
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400&display=swap');
+$mainFont: 'Montserrat', sans-serif;
+$secondaryFont: 'Work Sans', sans-serif;
+//fontweight
+$textRegular: 400;
+$textLight: 300;
+$textBold: 700;
+//vars globales
+$mainColor:rgba(145, 16, 16, 0.993);
+$secondaryColor:rgb(243, 243, 243);
+$navColor:rgba(145, 16, 16, 0.993);
+$bgColor:rgb(21, 1, 1);
+//sizing
+$w-100:100%;
+$vh-100: 100vh;
+//media
+$smartphone: (max-width: 576px);  
+$tablet: (min-width: 576px) and (max-width:768px);  
+$desktop-sm: (min-width: 768px) and (max-width:992px);

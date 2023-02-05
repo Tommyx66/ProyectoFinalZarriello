@@ -1,0 +1,72 @@
+[
+    {
+        "price": 1000,
+        "id": 1,
+        "title": "T-Shirt Alter Bridge",
+        "thumbnailUrl": "./multimedia/clothes/AbTBk.webp",
+        "cantidad": 1
+    },
+    {
+        "price": 500,
+        "id": 2,
+        "title": "T-Shirt Led Zeppelin",
+        "thumbnailUrl": "multimedia/clothes/LzTBk.webp",
+        "cantidad": 1
+    },
+    {
+        "price": 500,
+        "id": 3,
+        "title": "T-Shirt The Rolling Stones",
+        "thumbnailUrl": "multimedia/clothes/RsTBk.webp",
+        "cantidad": 1
+    },
+    {
+        "price": 500,
+        "id": 4,
+        "title": "Hoodie Foo Fighters",
+        "thumbnailUrl": "multimedia/clothes/FfHB.webp",
+        "cantidad": 1
+    },
+    {
+        "price": 500,
+        "id": 5,
+        "title": "T-Shirt Nirvana",
+        "thumbnailUrl": "multimedia/clothes/NTW.webp",
+        "cantidad": 1
+    },
+    {
+        "price": 500,
+        "id": 6,
+        "title": "T-Shirt Polyphia",
+        "thumbnailUrl": "multimedia/clothes/polyphiaTW.webp",
+        "cantidad": 1
+    },
+    {
+        "price": 500,
+        "id": 7,
+        "title": "T-Shirt Queen",
+        "thumbnailUrl": "multimedia/clothes/QTW.webp",
+        "cantidad": 1
+    },
+    {
+        "price": 500,
+        "id": 8,
+        "title": "Hoodie Soda Stereo",
+        "thumbnailUrl": "multimedia/clothes/SodaHW.webp",
+        "cantidad": 1
+    },
+    {
+        "price": 500,
+        "id": 9,
+        "title": "T-Shirt Foo Fighters",
+        "thumbnailUrl": "multimedia/clothes/FfTR.webp",
+        "cantidad": 1
+    },
+    {
+        "price": 500,
+        "id": 10,
+        "title": "T-Shirt Audioslave",
+        "thumbnailUrl": "multimedia/clothes/AslaveTBk.webp",
+        "cantidad": 1
+    }
+]

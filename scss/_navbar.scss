@@ -1,0 +1,36 @@
+
+.navbar{
+    
+	background-color:rgb(0,0,0);
+	align-items: center;
+	margin-top:-1.3rem;
+	.logo{
+		width: 17.25em;
+		height: 9.06em;
+		
+	}
+	.menu{
+
+		justify-content: space-around;
+		li{
+			list-style: none;
+			a {
+				color:$navColor;
+				font-family: $mainFont;
+				font-size: 2rem;
+				font-weight: $textBold;
+				text-transform: uppercase;
+				line-height: 2.4rem; 
+				letter-spacing: 2px;
+				cursor: pointer;
+				&:hover {
+					color:$secondaryColor;
+					font-weight: $textBold;
+				}
+			}
+		}	
+	}
+	.menu-bar{
+		display: none;
+	}
+}	

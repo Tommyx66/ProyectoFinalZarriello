@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="author" content="Tomy Zarriello">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Mi CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Inicia Header -->
+    <div>
+        <header>
+            <!-- Inicia Nav -->
+            <div class="nav-container">
+                <nav class="navbar">
+                    <a href="index.html">
+                        <img src="multimedia/TIENDA/Header/ce1af3aaa98b9355fc1fc914dfccd30b.jpg" class="logo"
+                            alt="Logo Tienda">
+                    </a>
+                    <ul class="menu" id="menu">
+
+                    </ul>
+                    <button type="button" class="ver-carrito cartButton icon-button" id="verCarrito">
+                        <span class="material-icons">
+                            shopping_cart
+                        </span>
+                        <span class="cantidad-carrito" id="cantidadCarrito"> </span>
+                    </button>
+                    <div class="menu-bar" id="menu-bar">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- End Nav -->
+        </header>
+    </div>
+    <!-- Inicia Main -->
+    <main class="container-fluid py-3">
+        <section class="intro">
+
+            <div>
+
+                <!-- Bienvenida -->
+                <div class="introText">
+
+                    <h1 class="text-center pt-5"> <strong>Dragon Rock </strong> </h1>
+                    <p class="text-center pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nostrum
+                        iusto dicta nihil quidem
+                        labore illo doloribus nesciunt tenetur rerum, eos architecto repellendus velit tempora.
+                        Perspiciatis nihil velit temporibus obcaecati.</p>
+                </div>
+
+            </div>
+        </section>
+
+        </section>
+        <section class="products">
+            <div class="productos ">
+                <h1 id="titulo" class="text-center display-6 p-5 fw-normal"> TIENDA </h1>
+                <div class="container">
+
+                    <div id="shopContent" class=" shop-content"> </div>
+
+                </div>
+                <!-- Modal container-->
+                <div id="modalContainer" class="modal-container"></div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Inicia Footer -->
+
+    <footer class="footer row d-flex justify-content-evenly p-3">
+
+
+        <div class="containerLogos ps-5 pt-4 pb-3">
+            <a href="https://facebook.com/" rel="noopener" target="_blank"><img width="50"
+                    src="multimedia/icono/facebook.png" width="50" alt="facebook logo" class="p-1"></a>
+            <a href="https://twitter.com/" rel="noopener" target="_blank"><img width="62"
+                    src="multimedia/icono/twitter.jpg" alt="twitter logo" class="p-1"></a>
+            <a href="https://www.instagram.com/" rel="noopener" target="_blank"><img width="50"
+                    src="multimedia/icono/instagram.png" alt="instagram logo" class="p-1"></a>
+            <a href="https://www.linkedin.com/in/" rel="noopener" target="_blank"><img width="50"
+                    src="multimedia/icono/linkedin.jpg" alt="linkedIn logo" class="p-1"></a>
+            <a href="https://github.com/" rel="noopener" target="_blank"><img src="multimedia/icono/github.jpg"
+                    width="50" alt="gitHub logo" class="p-1"></a>
+        </div>
+
+        <div class="containerCopyright ps-5 pt-3">
+            <p>Copyright © 2023 All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/productos.js"></script>
+    <script src="js/carrito.js"></script>
+
+    <script src="js/app.js"></script>
+
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <!--- Bootstrap Js --->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
